@@ -113,8 +113,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 						</div>
 							</div>
 					<div class="primary-menu-wrapper">
-							<nav class="main-navigation"><div class="menu-container"><ul id="menu-pages" class="menu"><li id="menu-item-42" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-42"><a href="http://fatadeproro.local/">Home</a></li>
-<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-20"><a href="http://fatadeproro.local/">Soluții</a></li>
+							<nav class="main-navigation"><div class="menu-container"><ul id="menu-pages" class="menu"><li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-20"><a href="http://fatadeproro.local/">Soluții</a></li>
 <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-12 current_page_item menu-item-21"><a href="http://fatadeproro.local/portofoliu" aria-current="page">Portofoliu</a></li>
 <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://fatadeproro.local/despre-noi">Despre noi</a></li>
 <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://fatadeproro.local/contact">Contact</a></li>
@@ -152,8 +151,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="sidebar-body">
 					<div class="navigation-wrapper">
 						<div class="primary-menu-wrapper">
-							<nav class="main-navigation"><div class="menu-container"><ul id="menu-pages-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-42"><a href="http://fatadeproro.local/">Home</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-20"><a href="http://fatadeproro.local/">Soluții</a></li>
+							<nav class="main-navigation"><div class="menu-container"><ul id="menu-pages-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-20"><a href="http://fatadeproro.local/">Soluții</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-12 current_page_item menu-item-21"><a href="http://fatadeproro.local/portofoliu" aria-current="page">Portofoliu</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://fatadeproro.local/despre-noi">Despre noi</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://fatadeproro.local/contact">Contact</a></li>
