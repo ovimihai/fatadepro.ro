@@ -448,7 +448,7 @@ body {
 
 /* counter section styling */
 .counter-section.front-counter, .blog-section{
-  background-image: url(/wp-content/themes/skyline-construction/assets/images/counter-bg.png);
+  background-image: url(/fatadepro.ro//wp-content/themes/skyline-construction/assets/images/counter-bg.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -666,7 +666,7 @@ body {
 /* services section */
 .process-section.front-workingstep{
   
-  background-image: url(/wp-content/themes/skyline-construction/assets/images/counter-bg.png);
+  background-image: url(/fatadepro.ro//wp-content/themes/skyline-construction/assets/images/counter-bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
