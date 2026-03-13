@@ -1,0 +1,29 @@
+/* Style the container */
+/* .gl-notice-custom-control {
+	background: #fff;s
+	color: #000;
+	padding: 20px 0;
+} */
+/* Style the title */
+.gl-notice-custom-control .customize-control-title {
+	color: #333;
+	font-weight: bolder;
+}
+
+/* Style the description */
+.gl-notice-custom-control .customize-control-description {
+	color: #666;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.gl-notice-custom-control {
+	background: transparent !important;
+	border-top: 0.5px solid #d0d0d0;
+	padding:  0 !important;
+	font-size: 0 !important;
+	margin: 10px 0;
+}
+.gl-notice-custom-control .customize-control-title {
+	font-size: 0 !important;
+}

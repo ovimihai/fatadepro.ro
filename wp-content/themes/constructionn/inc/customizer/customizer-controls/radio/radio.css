@@ -1,0 +1,66 @@
+/* Style the radio buttons */
+.customize-control-gl-radio-image input[type="radio"] {
+	display: none;
+}
+
+/* Style the selected radio button label */
+.customize-control-gl-radio-image input[type="radio"]:checked + .radio-button-label {
+	border: 2px solid #0073aa;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+/* Style the radio button images on hover */
+.customize-control-gl-radio-image img:hover {
+	border-color: #0073aa;
+}
+
+.customize-control-gl-radio-image .radioimgwrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.customize-control-gl-radio-image .radio-button-label {
+	width: 44%;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+.customize-control-gl-radio-image [data-row="row-1"] .radio-button-label {
+	width: 100%;
+}
+.customize-control-gl-radio-image [data-row="row-3"] .radio-button-label {
+	width: 29%;
+}
+
+.customize-control-gl-radio-image .radio-button-label > input {
+	display: none;
+}
+
+.customize-control-gl-radio-image .radio-button-label > input:checked + img {
+	border: 3px solid #2885bb;
+	max-width: 100%;
+	cursor: pointer;
+}
+
+
+.customize-control-gl-radio-image .radioimgwrapper{
+
+	justify-content: unset !important;
+	column-gap: 18px !important;
+
+}
+
+
+
+.customize-control-gl-radio-image .radioimgwrapper .radio-button-label img{
+	padding: 12px;
+	padding-bottom: 0;
+	background-color: #ccc;
+	border-radius: 6px 6px 0 0;
+	width: 90px;
+	border: 0 !important;
+	cursor: pointer;
+}
+.customize-control-gl-radio-image .radio-button-label > input:checked + img{
+	background-color: #6CB0EF !important;
+}

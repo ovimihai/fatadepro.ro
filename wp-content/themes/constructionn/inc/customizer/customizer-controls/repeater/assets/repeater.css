@@ -1,0 +1,225 @@
+/* Repeater Row */
+.customize-control-constructionn-repeater .repeater-fields .repeater-row {
+    border: 1px solid #999;
+    margin-top: 0.5rem;
+    background: #eee;
+    position: relative;
+}
+
+.customize-control-constructionn-repeater .repeater-fields .repeater-row.minimized {
+    border: 1px solid #dfdfdf;
+    padding: 0;
+}
+
+.customize-control-constructionn-repeater .repeater-fields .repeater-row.minimized:hover {
+    border: 1px solid #999;
+}
+
+.customize-control-constructionn-repeater .repeater-fields .repeater-row.minimized .repeater-row-content {
+    display: none;
+}
+
+.customize-control-constructionn-repeater .repeater-fields .repeater-row label {
+    margin-bottom: 12px;
+    clear: both;
+}
+
+.customize-control-constructionn-repeater .repeater-fields .repeater-row .repeater-field,
+.customize-control-constructionn-repeater .repeater-fields .repeater-row .repeater-field-checkbox label {
+    margin-bottom: 12px;
+}
+
+.customize-control-constructionn-repeater .repeater-fields .repeater-row .repeater-field.repeater-field-,
+.customize-control-constructionn-repeater .repeater-fields .repeater-row .repeater-field.repeater-field-radio-image input {
+    display: none;
+}
+
+/* Radio Image */
+.customize-control-constructionn-repeater .repeater-fields .repeater-row .repeater-field.repeater-field-radio-image input img {
+    border: 1px solid transparent;
+}
+
+.customize-control-constructionn-repeater .repeater-fields .repeater-row .repeater-field.repeater-field-radio-image input:checked+label img {
+    -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+    border: 1px solid #3498DB;
+}
+
+/* Last Child */
+.customize-control-constructionn-repeater .repeater-fields .repeater-row .repeater-field:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* Add Button */
+.customize-control-constructionn-repeater button.repeater-add {
+    margin-top: 1rem;
+}
+
+/* Row Content */
+.customize-control-constructionn-repeater .repeater-row-content {
+    padding: 10px 15px;
+}
+
+/* Field */
+.customize-control-constructionn-repeater .repeater-field {
+    margin-bottom: 12px;
+    width: 100%;
+    clear: both;
+    padding-bottom: 12px;
+    border-bottom: 1px dotted #CCC;
+}
+
+/* Field Title & Description */
+.customize-control-constructionn-repeater .repeater-field .customize-control-title,
+.customize-control-constructionn-repeater .repeater-field .customize-control-description {
+    font-size: 13px;
+    line-height: initial;
+}
+
+/* Hidden Field */
+.customize-control-constructionn-repeater .repeater-field.repeater-field-hidden {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Select Field */
+.customize-control-constructionn-repeater .repeater-field-select select {
+    margin-left: 0;
+}
+
+/* Textarea Field */
+.customize-control-constructionn-repeater .repeater-field-textarea textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+/* Checkbox Field */
+.customize-control-constructionn-repeater .repeater-field-checkbox input,
+.customize-control-constructionn-repeater .repeater-field-checkbox label {
+    line-height: 28px;
+}
+
+.customize-control-constructionn-repeater .repeater-field-checkbox input {
+    margin-right: 5px;
+}
+
+/* Row Header */
+.customize-control-constructionn-repeater .repeater-row-header {
+    background: white;
+    border: 1px solid #dfdfdf;
+    position: relative;
+    padding: 10px 15px;
+    min-height: 20px;
+    line-height: 30px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.dashicons-arrow-down:before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cpath d='M9.33203 13.3359L15.9987 20.0026L22.6654 13.3359H9.33203Z' fill='white'/%3E%3C/svg%3E");
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dashicons-arrow-up:before {
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cpath d='M9.33203 13.3359L15.9987 20.0026L22.6654 13.3359H9.33203Z' fill='white'/%3E%3C/svg%3E");
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+
+.customize-control-constructionn-repeater .repeater-row-header:hover {
+    cursor: move;
+}
+
+.customize-control-constructionn-repeater .repeater-row-header .dashicons {
+    font-size: 18px;
+    position: absolute;
+    right: 12px;
+    top: 2px;
+    color: #a0a5aa;
+}
+
+/* Row Label */
+.customize-control-constructionn-repeater .repeater-row-label {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    display: block;
+    width: 90%;
+    overflow: hidden;
+    height: 18px;
+}
+
+/* Row Remove */
+.customize-control-constructionn-repeater .repeater-row-remove {
+    color: #a00;
+}
+
+.customize-control-constructionn-repeater .repeater-row-remove:hover {
+    color: #f00;
+}
+
+/* Repeater Minimize */
+.customize-control-constructionn-repeater .repeater-minimize {
+    line-height: 36px;
+}
+
+/* Buttons */
+.customize-control-constructionn-repeater .remove-button,
+.customize-control-constructionn-repeater .upload-button {
+    width: 48%;
+}
+
+/* Image Attachment */
+.constructionn-image-attachment,
+.constructionn-file-attachment {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.constructionn-image-attachment img {
+    display: inline-block;
+}
+
+/* File Attachment */
+.constructionn-file-attachment .file {
+    display: block;
+    padding: 10px 5px;
+    border: 1px dotted #c3c3c3;
+    background: #f9f9f9;
+}
+
+/* Limit */
+.limit {
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.limit.highlight {
+    background: #D32F2F;
+    color: #fff;
+}
+
+
+.repeater-fields .repeater-row .repeater-row-header{
+    background-color: #2084BD;
+} 
+
+ .repeater-fields .repeater-row .repeater-row-header .repeater-row-label{
+    color: white;
+} 
